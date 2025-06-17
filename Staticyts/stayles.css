@@ -1,0 +1,61 @@
+#fondo 
+{
+  
+    background-color: rgb(143, 215, 248);
+    min-height: 100vh;
+    text-align: center;
+
+}
+
+#botones
+{
+    width: 1270px;
+    height: 70px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    /*indica que los elemntos del contenedor se separen para ocupar la main-axis*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(103, 255, 247);
+  
+}
+
+button
+{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif ;
+}
+
+.btnAgregar
+{
+    background-color: rgb(241, 135, 188);
+}
+
+.btnEliminar
+{
+    background-color: rgb(201, 145, 253);
+}
+
+#contenedor
+{
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.tareita
+{
+    width: 200px;
+    height: 200px;
+    background-color: lightpink;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 7px;
+}
